@@ -20,169 +20,200 @@
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <!-- Navbar -->
-    <nav class="container navbar navbar-expand-lg border-bottom">
-      <div class="container-fluid">
-        <a class="navbar-brand m-2 me-5" href="#">
-          <img src="./img/Logo.svg" alt="" />
-        </a>
-        <button
-          class="navbar-toggler text-bg-primary"
-          type="button"
-          data-bs-toggle="offcanvas"
-          data-bs-target="#offcanvasNavbar"
-          aria-controls="offcanvasNavbar"
-        >
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse me-5">
-          <ul
-            class="navbar-nav me-auto mb-2 mb-lg-0 d-flex justify-content-between w-100"
+    <header class="fixed-top">
+      <!-- Navbar -->
+      <nav class="container navbar navbar-expand-lg border-bottom">
+        <div class="container-fluid">
+          <a class="navbar-brand m-2 me-5" href="#">
+            <img src="./img/Logo.svg" alt="" />
+          </a>
+          <button
+            class="navbar-toggler text-bg-primary"
+            type="button"
+            data-bs-toggle="offcanvas"
+            data-bs-target="#offcanvasNavbar"
+            aria-controls="offcanvasNavbar"
           >
-            <li class="nav-item icon">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse me-5">
+            <ul
+              class="navbar-nav me-auto mb-2 mb-lg-0 d-flex justify-content-between w-100"
+            >
+              <li class="nav-item icon">
+                <a class="nav-link active" href="#"
+                  ><i class="fa-solid fa-house"></i
+                ></a>
+              </li>
+              <li class="nav-item icon">
+                <a class="nav-link" href="#"
+                  ><i class="fa-solid fa-language"></i
+                ></a>
+              </li>
+              <li class="nav-item icon">
+                <a class="nav-link" href="#"
+                  ><i class="fa-solid fa-user-secret"></i
+                ></a>
+              </li>
+              <li class="nav-item icon">
+                <a class="nav-link" href="#"
+                  ><i class="fa-solid fa-yin-yang"></i
+                ></a>
+              </li>
+              <li class="nav-item icon">
+                <a class="nav-link" href="#"
+                  ><i class="fa-solid fa-gamepad"></i
+                ></a>
+              </li>
+              <li class="nav-item icon">
+                <a class="nav-link" href="#"
+                  ><i class="fa-solid fa-square-root-variable"></i
+                ></a>
+              </li>
+              <li class="nav-item icon">
+                <a class="nav-link" href="#"
+                  ><i class="fa-solid fa-user-group"></i
+                ></a>
+              </li>
+              <li class="nav-item icon ms-5">
+                <a class="nav-link" href="#"
+                  ><i class="fa-solid fa-hammer"></i
+                ></a>
+              </li>
+              <li class="nav-item icon">
+                <a class="nav-link" href="#"
+                  ><i class="fa-solid fa-comment-dots"></i
+                ></a>
+              </li>
+              <li class="nav-item icon">
+                <a class="nav-link" href="#"
+                  ><i class="fa-solid fa-bell"></i
+                ></a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+      <!-- Offcanvas -->
+      <div
+        class="offcanvas offcanvas-end w-75"
+        tabindex="-1"
+        id="offcanvasNavbar"
+        aria-labelledby="offcanvasNavbarLabel"
+      >
+        <div class="offcanvas-header">
+          <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Menu</h5>
+          <button
+            type="button"
+            class="btn-close"
+            data-bs-dismiss="offcanvas"
+            aria-label="Close"
+          ></button>
+        </div>
+        <div class="offcanvas-body">
+          <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+            <li
+              class="nav-item d-flex align-items-center m-1 bg-primary rounded-3"
+            >
               <a class="nav-link active" href="#"
-                ><i class="fa-solid fa-house"></i
-              ></a>
+                ><i class="fa-solid fa-house p-2"></i>Home
+              </a>
             </li>
-            <li class="nav-item icon">
+            <li
+              class="nav-item d-flex align-items-center m-1 bg-primary rounded-3"
+            >
               <a class="nav-link" href="#"
-                ><i class="fa-solid fa-language"></i
-              ></a>
+                ><i class="fa-solid fa-language p-2"></i>Teacher
+              </a>
             </li>
-            <li class="nav-item icon">
+            <li
+              class="nav-item d-flex align-items-center m-1 bg-primary rounded-3"
+            >
+              <a class="nav-link" href="#">
+                <i class="fa-solid fa-user-secret p-2 me-2"></i>Information
+                Technology
+              </a>
+            </li>
+            <li
+              class="nav-item d-flex align-items-center m-1 bg-primary rounded-3"
+            >
+              <a class="nav-link" href="#">
+                <i class="fa-solid fa-yin-yang p-2 me-2"></i>Horoscope
+              </a>
+            </li>
+            <li
+              class="nav-item d-flex align-items-center m-1 bg-primary rounded-3"
+            >
+              <a class="nav-link" href="#">
+                <i class="fa-solid fa-gamepad p-2 me-1"></i>Entertainment
+              </a>
+            </li>
+            <li
+              class="nav-item d-flex align-items-center m-1 bg-primary rounded-3"
+            >
               <a class="nav-link" href="#"
-                ><i class="fa-solid fa-user-secret"></i
-              ></a>
+                ><i class="fa-solid fa-square-root-variable p-2 me-2"></i>Math
+              </a>
             </li>
-            <li class="nav-item icon">
+            <li
+              class="nav-item d-flex align-items-center m-1 bg-primary rounded-3"
+            >
               <a class="nav-link" href="#"
-                ><i class="fa-solid fa-yin-yang"></i
-              ></a>
+                ><i class="fa-solid fa-user-group p-2 me-1"></i>Student
+              </a>
             </li>
-            <li class="nav-item icon">
+            <li
+              class="nav-item d-flex align-items-center m-1 bg-primary rounded-3 mt-5"
+            >
               <a class="nav-link" href="#"
-                ><i class="fa-solid fa-gamepad"></i
-              ></a>
+                ><i class="fa-solid fa-hammer p-2 me-1"></i>Settings
+              </a>
             </li>
-            <li class="nav-item icon">
+            <li
+              class="nav-item d-flex align-items-center m-1 bg-primary rounded-3"
+            >
+              <a class="nav-link" href="#">
+                <i class="fa-solid fa-comment-dots p-2 me-1"></i>Messenger
+              </a>
+            </li>
+            <li
+              class="nav-item d-flex align-items-center m-1 bg-primary rounded-3"
+            >
               <a class="nav-link" href="#"
-                ><i class="fa-solid fa-square-root-variable"></i
-              ></a>
-            </li>
-            <li class="nav-item icon">
-              <a class="nav-link" href="#"
-                ><i class="fa-solid fa-user-group"></i
-              ></a>
-            </li>
-            <li class="nav-item icon ms-5">
-              <a class="nav-link" href="#"
-                ><i class="fa-solid fa-hammer"></i
-              ></a>
-            </li>
-            <li class="nav-item icon">
-              <a class="nav-link" href="#"
-                ><i class="fa-solid fa-comment-dots"></i
-              ></a>
-            </li>
-            <li class="nav-item icon">
-              <a class="nav-link" href="#"><i class="fa-solid fa-bell"></i></a>
+                ><i class="fa-solid fa-bell p-2 me-1"></i>Notification
+              </a>
             </li>
           </ul>
         </div>
       </div>
-    </nav>
-    <!-- Offcanvas -->
-    <div
-      class="offcanvas offcanvas-end w-75"
-      tabindex="-1"
-      id="offcanvasNavbar"
-      aria-labelledby="offcanvasNavbarLabel"
-    >
-      <div class="offcanvas-header">
-        <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Menu</h5>
-        <button
-          type="button"
-          class="btn-close"
-          data-bs-dismiss="offcanvas"
-          aria-label="Close"
-        ></button>
+    </header>
+    <main>
+      <div class="container py-5" style="background-color: rgb(113, 163, 255)">
+        <div class="row align-items-center">
+          <!-- Khối trái -->
+          <div class="col-md-5 text-center m-md-0">
+            <img
+              src="./img/header.svg"
+              alt="Image Description"
+              class="img-fluid rounded"
+            />
+          </div>
+          <!-- Khối phải -->
+          <div class="col-md-6 text-white">
+            <h2 class="mb-3">Equipping people of all ages with knowledge</h2>
+            <p class="mb-3">
+              Build new skills for that “this is my year” feeling with courses,
+              certificates, and degrees from world-class universities and
+              companies.
+            </p>
+            <a href="#" class="btn btn-danger">
+              <i class="fa fa-google me-2"></i> Log in
+            </a>
+            or call 0862.826.616
+          </div>
+        </div>
       </div>
-      <div class="offcanvas-body">
-        <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
-          <li
-            class="nav-item d-flex align-items-center m-1 bg-primary rounded-3"
-          >
-            <a class="nav-link active" href="#"
-              ><i class="fa-solid fa-house p-2"></i>Home
-            </a>
-          </li>
-          <li
-            class="nav-item d-flex align-items-center m-1 bg-primary rounded-3"
-          >
-            <a class="nav-link" href="#"
-              ><i class="fa-solid fa-language p-2"></i>Teacher
-            </a>
-          </li>
-          <li
-            class="nav-item d-flex align-items-center m-1 bg-primary rounded-3"
-          >
-            <a class="nav-link" href="#">
-              <i class="fa-solid fa-user-secret p-2 me-2"></i>Information
-              Technology
-            </a>
-          </li>
-          <li
-            class="nav-item d-flex align-items-center m-1 bg-primary rounded-3"
-          >
-            <a class="nav-link" href="#">
-              <i class="fa-solid fa-yin-yang p-2 me-2"></i>Horoscope
-            </a>
-          </li>
-          <li
-            class="nav-item d-flex align-items-center m-1 bg-primary rounded-3"
-          >
-            <a class="nav-link" href="#">
-              <i class="fa-solid fa-gamepad p-2 me-1"></i>Entertainment
-            </a>
-          </li>
-          <li
-            class="nav-item d-flex align-items-center m-1 bg-primary rounded-3"
-          >
-            <a class="nav-link" href="#"
-              ><i class="fa-solid fa-square-root-variable p-2 me-2"></i>Math
-            </a>
-          </li>
-          <li
-            class="nav-item d-flex align-items-center m-1 bg-primary rounded-3"
-          >
-            <a class="nav-link" href="#"
-              ><i class="fa-solid fa-user-group p-2 me-1"></i>Student
-            </a>
-          </li>
-          <li
-            class="nav-item d-flex align-items-center m-1 bg-primary rounded-3 mt-5"
-          >
-            <a class="nav-link" href="#"
-              ><i class="fa-solid fa-hammer p-2 me-1"></i>Settings
-            </a>
-          </li>
-          <li
-            class="nav-item d-flex align-items-center m-1 bg-primary rounded-3"
-          >
-            <a class="nav-link" href="#">
-              <i class="fa-solid fa-comment-dots p-2 me-1"></i>Messenger
-            </a>
-          </li>
-          <li
-            class="nav-item d-flex align-items-center m-1 bg-primary rounded-3"
-          >
-            <a class="nav-link" href="#"
-              ><i class="fa-solid fa-bell p-2 me-1"></i>Notification
-            </a>
-          </li>
-        </ul>
-      </div>
-    </div>
+    </main>
 
     <!-- Bootstrap JS -->
     <script
