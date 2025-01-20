@@ -1,5 +1,8 @@
-body > nav {
+header {
   background-color: #10375c;
+}
+main {
+  padding-top: 140px;
 }
 
 .icon {
