@@ -1,8 +1,10 @@
 header {
-  background-color: #10375c;
+  /* background-color: #10375c; */
+  background-color: #3ea1fd;
 }
 main {
-  padding-top: 140px;
+  padding-top: 126px;
+  background-color: #3ea1fd99;
 }
 
 .icon {
