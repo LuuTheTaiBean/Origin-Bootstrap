@@ -242,7 +242,7 @@
                 <img class="img-fluid" src="./img/Work__icon1.svg" alt="" />
               </div>
               <div class="flex-grow-1 ms-3">
-                <h3 class="fs-5">Search lesson</h3>
+                <h3 class="fs-5">Search for your timetable</h3>
                 <p class="small text-secondary">
                   Search the class you missed. Contact us for more information.
                 </p>
@@ -306,87 +306,164 @@
       </section>
       <!-- MEETING -->
       <section class="container py-5" style="background-color: #3588d7">
-        <div class="row">
+        <!-- Hiển thị 4 khối trên màn hình lớn -->
+        <div class="row d-none d-lg-flex">
           <!-- Khối 1 -->
           <div class="col-lg-3 col-md-6">
-            <div
-              class="feature-item d-flex align-items-center justify-content-center p-3 border rounded mb-lg-0 mb-md-4 mb-3"
-              style="background-color: #d5e7f899"
-            >
-              <div class="text-center">
-                <img
-                  class="img-fluid rounded-circle"
-                  src="./img/teacher1.jpg"
-                  alt=""
-                />
-                <div>
-                  <a class="nav-link icon btn btn-primary me-1" href="#"
-                    ><i class="fa-solid fa-language"></i> </a
-                  >Nguyen Huu Trung
-                </div>
+            <div class="teacher-card">
+              <img
+                class="img-fluid rounded-circle mb-2"
+                src="./img/teacher1.jpg"
+                alt="Nguyen Huu Trung"
+              />
+              <div class="d-flex align-items-center justify-content-center">
+                <a class="nav-link icon btn btn-primary me-2" href="#"
+                  ><i class="fa-solid fa-language"></i
+                ></a>
+                <span>Nguyen Huu Trung</span>
               </div>
             </div>
           </div>
           <!-- Khối 2 -->
           <div class="col-lg-3 col-md-6">
-            <div
-              class="feature-item d-flex align-items-center justify-content-center p-3 border rounded mb-lg-0 mb-md-4 mb-3"
-              style="background-color: #d5e7f899"
-            >
-              <div class="text-center">
-                <img
-                  class="img-fluid rounded-circle"
-                  src="./img/teacher1.jpg"
-                  alt=""
-                />
-                <div>
-                  <a class="nav-link icon btn btn-primary me-1" href="#">
-                    <i class="fa-solid fa-yin-yang"></i> </a
-                  >Nguyen Huu Kien
-                </div>
+            <div class="teacher-card">
+              <img
+                class="img-fluid rounded-circle mb-2"
+                src="./img/teacher1.jpg"
+                alt="Nguyen Huu Kien"
+              />
+              <div class="d-flex align-items-center justify-content-center">
+                <a class="nav-link icon btn btn-primary me-2" href="#"
+                  ><i class="fa-solid fa-yin-yang"></i
+                ></a>
+                <span>Nguyen Huu Kien</span>
               </div>
             </div>
           </div>
           <!-- Khối 3 -->
           <div class="col-lg-3 col-md-6">
-            <div
-              class="feature-item d-flex align-items-center justify-content-center p-3 border rounded mb-lg-0 mb-md-4 mb-3"
-              style="background-color: #d5e7f899"
-            >
-              <div class="text-center">
-                <img
-                  class="img-fluid rounded-circle"
-                  src="./img/teacher1.jpg"
-                  alt=""
-                />
-                <div>
-                  <a class="nav-link icon btn btn-primary me-1" href="#"
-                    ><i class="fa-solid fa-language"></i> </a
-                  >Luu Thi Ngat
-                </div>
+            <div class="teacher-card">
+              <img
+                class="img-fluid rounded-circle mb-2"
+                src="./img/teacher1.jpg"
+                alt="Luu Thi Ngat"
+              />
+              <div class="d-flex align-items-center justify-content-center">
+                <a class="nav-link icon btn btn-primary me-2" href="#"
+                  ><i class="fa-solid fa-language"></i
+                ></a>
+                <span>Luu Thi Ngat</span>
               </div>
             </div>
           </div>
           <!-- Khối 4 -->
           <div class="col-lg-3 col-md-6">
-            <div
-              class="feature-item d-flex align-items-center justify-content-center p-3 border rounded mb-lg-0 mb-md-4 mb-3"
-              style="background-color: #d5e7f899"
-            >
-              <div class="text-center">
+            <div class="teacher-card">
+              <img
+                class="img-fluid rounded-circle mb-2"
+                src="./img/teacher1.jpg"
+                alt="Luu The Tai"
+              />
+              <div class="d-flex align-items-center justify-content-center">
+                <a class="nav-link icon btn btn-primary me-2" href="#"
+                  ><i class="fa-solid fa-user-secret"></i
+                ></a>
+                <span>Luu The Tai</span>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- Hiển thị trên điện thoại -->
+        <div
+          id="teacherCarousel"
+          class="carousel slide d-lg-none"
+          data-bs-ride="carousel"
+        >
+          <div class="carousel-inner">
+            <!-- Khối 1 -->
+            <div class="carousel-item active">
+              <div class="teacher-card text-center">
                 <img
-                  class="img-fluid rounded-circle"
+                  class="img-fluid rounded-circle mb-2"
                   src="./img/teacher1.jpg"
-                  alt=""
+                  alt="Nguyen Huu Trung"
                 />
-                <div>
-                  <a class="nav-link icon btn btn-primary me-1" href="#">
-                    <i class="fa-solid fa-user-secret"></i> </a
-                  >Luu The Tai
+                <div class="d-flex align-items-center justify-content-center">
+                  <a class="nav-link icon btn btn-primary me-2" href="#"
+                    ><i class="fa-solid fa-language"></i
+                  ></a>
+                  <span>Nguyen Huu Trung</span>
+                </div>
+              </div>
+            </div>
+            <!-- Khối 2 -->
+            <div class="carousel-item">
+              <div class="teacher-card text-center">
+                <img
+                  class="img-fluid rounded-circle mb-2"
+                  src="./img/teacher1.jpg"
+                  alt="Nguyen Huu Kien"
+                />
+                <div class="d-flex align-items-center justify-content-center">
+                  <a class="nav-link icon btn btn-primary me-2" href="#"
+                    ><i class="fa-solid fa-yin-yang"></i
+                  ></a>
+                  <span>Nguyen Huu Kien</span>
+                </div>
+              </div>
+            </div>
+            <!-- Khối 3 -->
+            <div class="carousel-item">
+              <div class="teacher-card text-center">
+                <img
+                  class="img-fluid rounded-circle mb-2"
+                  src="./img/teacher1.jpg"
+                  alt="Luu Thi Ngat"
+                />
+                <div class="d-flex align-items-center justify-content-center">
+                  <a class="nav-link icon btn btn-primary me-2" href="#"
+                    ><i class="fa-solid fa-language"></i
+                  ></a>
+                  <span>Luu Thi Ngat</span>
+                </div>
+              </div>
+            </div>
+            <!-- Khối 4 -->
+            <div class="carousel-item">
+              <div class="teacher-card text-center">
+                <img
+                  class="img-fluid rounded-circle mb-2"
+                  src="./img/teacher1.jpg"
+                  alt="Luu The Tai"
+                />
+                <div class="d-flex align-items-center justify-content-center">
+                  <a class="nav-link icon btn btn-primary me-2" href="#"
+                    ><i class="fa-solid fa-user-secret"></i
+                  ></a>
+                  <span>Luu The Tai</span>
                 </div>
               </div>
             </div>
           </div>
+          <!-- Nút điều hướng -->
+          <a
+            class="carousel-control-prev"
+            href="#teacherCarousel"
+            role="button"
+            data-bs-slide="prev"
+          >
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </a>
+          <a
+            class="carousel-control-next"
+            href="#teacherCarousel"
+            role="button"
+            data-bs-slide="next"
+          >
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </a>
         </div>
         <div class="row fs-5 mt-3 text-center justify-content-center">
           <h2 class="text-white">Our virtual teacher</h2>
