@@ -102,3 +102,16 @@ main {
 .carousel-control-next {
   right: 10px;
 }
+
+span {
+  font-family: "Times New Roman", Times, serif;
+}
+
+.icon-footer {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  width: 30px;
+  height: 30px;
+  font-size: 15px;
+}
